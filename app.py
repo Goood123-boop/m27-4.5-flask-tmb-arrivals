@@ -12,13 +12,13 @@ TMB_APP_KEY = os.getenv("TMB_APP_KEY")
 AMB_API_KEY = os.getenv("AMB_API_KEY")
 
 STOPS = [
-    {"id": 556, "name": "Zona Universitaria"},
-    {"id": 516, "name": "Carlos III - Numancia"},
-    {"id": 519, "name": "Pl Joaquim Figueres"},
-    # TODO: find two stops from your own life and add them here
-    # {"id": ???, "name": "Your stop name"},
-    # {"id": ???, "name": "Your stop name"},
+    {"id": 556,  "name": "Zona Universitaria"},
+    {"id": 516,  "name": "Carlos III - Numancia"},
+    {"id": 519,  "name": "Pl Joaquim Figueres"},
+    {"id": 2888, "name": "Putxet - Cadis"},          # ← El Putxet neighbourhood
+    {"id": 1742, "name": "Mitre - Balmes (H6)"},     # ← H6 toward El Corte Inglés / Diagonal
 ]
+
 
 AMB_STOPS = [
     {"id": 103614, "name": "Esplugues - JM / EP"},
